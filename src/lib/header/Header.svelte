@@ -11,7 +11,7 @@
 					<!-- ***** Menu Start ***** -->
 					<ul class="nav">
 						<li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-						<li><a href="meeting">Meetings</a></li>
+						<li><a href="meetings">Meetings</a></li>
 						<li class="scroll-to-section"><a href="#apply">Apply Now</a></li>
 						<li><a href="meeting-details">Meeting Details</a></li>
 						<li class="scroll-to-section"><a href="#courses">Courses</a></li> 
