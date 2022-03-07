@@ -1,5 +1,5 @@
 <script>
-	console.log(import.meta.env.API);
+	console.log(process.env.API);
 </script>
 
 <header class="header-area header-sticky">
