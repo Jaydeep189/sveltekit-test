@@ -17,7 +17,7 @@
               <li><a href="/#">Phasellus nec sapien</a></li>
             </ul>
             <div class="main-button-red">
-              <a href="meetings.html">All Upcoming Meetings</a>
+              <a href="meetings ">All Upcoming Meetings</a>
             </div>
           </div>
         </div>
@@ -29,13 +29,13 @@
                   <div class="price">
                     <span>$22.00</span>
                   </div>
-                  <a href="meeting-details.html"><img src="assets/images/meeting-01.jpg" alt="New Lecturer Meeting"></a>
+                  <a href="meeting-details "><img src="assets/images/meeting-01.jpg" alt="New Lecturer Meeting"></a>
                 </div>
                 <div class="down-content">
                   <div class="date">
                     <h6>Nov <span>10</span></h6>
                   </div>
-                  <a href="meeting-details.html"><h4>New Lecturers Meeting</h4></a>
+                  <a href="meeting-details "><h4>New Lecturers Meeting</h4></a>
                   <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
                 </div>
               </div>
@@ -46,13 +46,13 @@
                   <div class="price">
                     <span>$36.00</span>
                   </div>
-                  <a href="meeting-details.html"><img src="assets/images/meeting-02.jpg" alt="Online Teaching"></a>
+                  <a href="meeting-details "><img src="assets/images/meeting-02.jpg" alt="Online Teaching"></a>
                 </div>
                 <div class="down-content">
                   <div class="date">
                     <h6>Nov <span>24</span></h6>
                   </div>
-                  <a href="meeting-details.html"><h4>Online Teaching Techniques</h4></a>
+                  <a href="meeting-details "><h4>Online Teaching Techniques</h4></a>
                   <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
                 </div>
               </div>
@@ -63,13 +63,13 @@
                   <div class="price">
                     <span>$14.00</span>
                   </div>
-                  <a href="meeting-details.html"><img src="assets/images/meeting-03.jpg" alt="Higher Education"></a>
+                  <a href="meeting-details "><img src="assets/images/meeting-03.jpg" alt="Higher Education"></a>
                 </div>
                 <div class="down-content">
                   <div class="date">
                     <h6>Nov <span>26</span></h6>
                   </div>
-                  <a href="meeting-details.html"><h4>Higher Education Conference</h4></a>
+                  <a href="meeting-details "><h4>Higher Education Conference</h4></a>
                   <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
                 </div>
               </div>
@@ -80,13 +80,13 @@
                   <div class="price">
                     <span>$48.00</span>
                   </div>
-                  <a href="meeting-details.html"><img src="assets/images/meeting-04.jpg" alt="Student Training"></a>
+                  <a href="meeting-details "><img src="assets/images/meeting-04.jpg" alt="Student Training"></a>
                 </div>
                 <div class="down-content">
                   <div class="date">
                     <h6>Nov <span>30</span></h6>
                   </div>
-                  <a href="meeting-details.html"><h4>Student Training Meetup</h4></a>
+                  <a href="meeting-details "><h4>Student Training Meetup</h4></a>
                   <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
                 </div>
               </div>
