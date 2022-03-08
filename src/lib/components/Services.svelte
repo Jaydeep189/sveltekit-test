@@ -1,59 +1,49 @@
+<script>
+  const ServiceData = [
+    {
+      title: 'Services',
+      img: 'assets/images/service-icon-01.png',
+      content: "Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum."
+    },
+    {
+      title: 'Services',
+      img: 'assets/images/service-icon-01.png',
+      content: "Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum."
+    },
+    {
+      title: 'Services',
+      img: 'assets/images/service-icon-01.png',
+      content: "Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum."
+    },
+    {
+      title: 'Services',
+      img: 'assets/images/service-icon-01.png',
+      content: "Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum."
+    },
+    {
+      title: 'Services',
+      img: 'assets/images/service-icon-01.png',
+      content: "Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum."
+    }
+  ]
+</script>
+
 <section class="services">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="owl-service-item owl-carousel">
-          
-            <div class="item">
+          {#each ServiceData as s}
+          <div class="item">
               <div class="icon">
-                <img src="assets/images/service-icon-01.png" alt="">
+                <img src={s.img} alt="">
               </div>
               <div class="down-content">
-                <h4>Best Education</h4>
-                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
+                <h4>{s.title}</h4>
+                <p>{s.content}</p>
               </div>
             </div>
-            
-            <div class="item">
-              <div class="icon">
-                <img src="assets/images/service-icon-02.png" alt="">
-              </div>
-              <div class="down-content">
-                <h4>Best Teachers</h4>
-                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
-              </div>
-            </div>
-            
-            <div class="item">
-              <div class="icon">
-                <img src="assets/images/service-icon-03.png" alt="">
-              </div>
-              <div class="down-content">
-                <h4>Best Students</h4>
-                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
-              </div>
-            </div>
-            
-            <div class="item">
-              <div class="icon">
-                <img src="assets/images/service-icon-02.png" alt="">
-              </div>
-              <div class="down-content">
-                <h4>Online Meeting</h4>
-                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
-              </div>
-            </div>
-            
-            <div class="item">
-              <div class="icon">
-                <img src="assets/images/service-icon-03.png" alt="">
-              </div>
-              <div class="down-content">
-                <h4>Best Networking</h4>
-                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
-              </div>
-            </div>
-            
+          {/each}
           </div>
         </div>
       </div>

@@ -1,3 +1,47 @@
+<script>
+  const NewMetting = [
+    {
+      price: 43,
+      img: "assets/images/meeting-01.jpg",
+      title: 'New Lecturers Meeting',
+      date: "Nov-10",
+      content: "Morbi in libero blandit lectus cursus ullamcorper."
+    },
+    {
+      price: 43,
+      img: "assets/images/meeting-01.jpg",
+      title: 'New Lecturers Meeting',
+      date: "Nov-10",
+      content: "Morbi in libero blandit lectus cursus ullamcorper."
+    },{
+      price: 43,
+      img: "assets/images/meeting-01.jpg",
+      title: 'New Lecturers Meeting',
+      date: "Nov-10",
+      content: "Morbi in libero blandit lectus cursus ullamcorper."
+    },{
+      price: 43,
+      img: "assets/images/meeting-01.jpg",
+      title: 'New Lecturers Meeting',
+      date: "Nov-10",
+      content: "Morbi in libero blandit lectus cursus ullamcorper."
+    },{
+      price: 43,
+      img: "assets/images/meeting-01.jpg",
+      title: 'New Lecturers Meeting',
+      date: "Nov-10",
+      content: "Morbi in libero blandit lectus cursus ullamcorper."
+    },{
+      price: 43,
+      img: "assets/images/meeting-01.jpg",
+      title: 'New Lecturers Meeting',
+      date: "Nov-10",
+      content: "Morbi in libero blandit lectus cursus ullamcorper."
+    },
+    
+  ]
+</script>
+
 <section class="upcoming-meetings" id="meetings">
     <div class="container">
       <div class="row">
@@ -23,74 +67,25 @@
         </div>
         <div class="col-lg-8">
           <div class="row">
-            <div class="col-lg-6">
+          {#each NewMetting as nm}
+          <div class="col-lg-6">
               <div class="meeting-item">
                 <div class="thumb">
                   <div class="price">
-                    <span>$22.00</span>
+                    <span>{nm.price}</span>
                   </div>
-                  <a href="meeting-details "><img src="assets/images/meeting-01.jpg" alt="New Lecturer Meeting"></a>
+                  <a href="meeting-details "><img src={nm.img} alt="New Lecturer Meeting"></a>
                 </div>
                 <div class="down-content">
                   <div class="date">
-                    <h6>Nov <span>10</span></h6>
+                    <h6>{nm.date}</h6>
                   </div>
-                  <a href="meeting-details "><h4>New Lecturers Meeting</h4></a>
-                  <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
+                  <a href="meeting-details "><h4>{nm.title}</h4></a>
+                  <p>{nm.content}</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <div class="price">
-                    <span>$36.00</span>
-                  </div>
-                  <a href="meeting-details "><img src="assets/images/meeting-02.jpg" alt="Online Teaching"></a>
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6>Nov <span>24</span></h6>
-                  </div>
-                  <a href="meeting-details "><h4>Online Teaching Techniques</h4></a>
-                  <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <div class="price">
-                    <span>$14.00</span>
-                  </div>
-                  <a href="meeting-details "><img src="assets/images/meeting-03.jpg" alt="Higher Education"></a>
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6>Nov <span>26</span></h6>
-                  </div>
-                  <a href="meeting-details "><h4>Higher Education Conference</h4></a>
-                  <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <div class="price">
-                    <span>$48.00</span>
-                  </div>
-                  <a href="meeting-details "><img src="assets/images/meeting-04.jpg" alt="Student Training"></a>
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6>Nov <span>30</span></h6>
-                  </div>
-                  <a href="meeting-details "><h4>Student Training Meetup</h4></a>
-                  <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                </div>
-              </div>
-            </div>
+          {/each}
           </div>
         </div>
       </div>

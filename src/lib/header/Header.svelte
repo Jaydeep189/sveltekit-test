@@ -1,5 +1,4 @@
 <script>
-	console.log(process.env.API);
 </script>
 
 <header class="header-area header-sticky">
